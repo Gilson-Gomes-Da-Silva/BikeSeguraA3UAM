@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para a UC de **Algotimos e Programação** na **Universidade Anhembi Morumbi - Vila Olímpia**.
 
-O **Bike Segura** é uma solução computacional em Java que visa resolver o problema social da falta de segurança e infraestrutura para ciclistas urbanos[cite: 8, 15].
+O **Bike Segura** é uma solução computacional em Java que visa resolver o problema social da falta de segurança e infraestrutura para ciclistas urbanos.
 
 ---
 
@@ -10,25 +10,23 @@ O **Bike Segura** é uma solução computacional em Java que visa resolver o pro
 
 O sistema permite gerenciar a segurança do ciclista através de:
 * **Gestão de Rotas:** Cadastro e listagem de trajetos com cálculo de segurança.
-* **Reporte de Perigos:** Alertas sobre acidentes, obras e iluminação[cite: 75].
+* **Reporte de Perigos:** Alertas sobre acidentes, obras e iluminação.
 * **Pontos de Apoio:** Localização de Bebedouros, Oficinas e Pontos de Ar.
 * **Avaliações:** Feedback dos usuários sobre as rotas utilizadas.
 
 
-##  Estrutura Técnica (Conceitos de POO)
+##  Conceitos de POO aplicados
 
-A solução aplica os seguintes pilares da Programação Orientada a Objetos exigidos na avaliação[cite: 18]:
+A solução aplica os seguintes pilares da Programação Orientada a Objetos exigidos na avaliação:
 
-1.  **Encapsulamento:** Todos os atributos são `private` com acesso via getters e setters[cite: 18, 60].
-2.  **Herança:** Utilizada para especializar tipos de perigos e pontos de apoio[cite: 18, 78].
-3.  **Polimorfismo:** Sobrescrita de métodos (`@Override`), como no método `toString()` e em métodos de cálculo[cite: 18, 55, 79].
-4.  **Listas:** Uso de `ArrayList` para armazenamento dinâmico de objetos em memória[cite: 18, 62].
-5.  **Organização:** Código dividido nos pacotes `model`, `service` e `view`[cite: 18, 59].
+1.  **Encapsulamento:** Todos os atributos são `private` com acesso via getters e setters.
+2.  **Herança:** Utilizada para especializar tipos de perigos e pontos de apoio.
+3.  **Polimorfismo:** Sobrescrita de métodos (`@Override`), como no método `toString()` e em métodos de cálculo.
+4.  **Listas:** Uso de `ArrayList` para armazenamento dinâmico de objetos em memória.
+5.  **Organização:** Código dividido nos pacotes `model`, `service` e `view`.
 
 ---
 
-##  Como Rodar o Projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/Gilson-Gomes-Da-Silva/BikeSeguraA3UAM.git](https://github.com/Gilson-Gomes-Da-Silva/BikeSeguraA3UAM.git)
+## Autores
+* Gilson Gomes da Silva, RA: 12526160131
+* Daniel dos Santos Pereira, RA: 12526158668
